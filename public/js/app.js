@@ -56,6 +56,6 @@ weatherForm.addEventListener('submit',(e)=>{
 
     messageTwo.textContent=''
 
-    const url='http://localhost:3000/weather?address='+encodeURIComponent(location);
+    const url='/weather?address='+encodeURIComponent(location);
     getdata(url)
 })
