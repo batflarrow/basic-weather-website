@@ -47,7 +47,7 @@ if(body.error)
 }
 else
 {
-    callback(undefined,body.current.weather_descriptions[0]+" It is currently "+body.current.temperature+" degrees out and it feels like "+body.current.feelslike+" degrees out.")
+    callback(undefined,body.current.weather_descriptions[0]+" It is currently "+body.current.temperature+" degrees out and it feels like "+body.current.feelslike+" degrees out.\n"+"The humidity is "+body.current.humidity)
 }
 
     })
